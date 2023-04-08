@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import {DownloadPost} from './Utils/download-post.js';
 import {SearchUser} from './Utils/search-user.js';
 import {delay, downloadFiles, insertAtIndex} from './Utils/modules.js';

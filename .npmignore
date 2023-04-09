@@ -1,1 +1,7 @@
 node_modules
+dist
+.gitignore
+.prettierrc.json
+package-lock.json
+.eslintignore
+.eslintrc.json

@@ -19,10 +19,6 @@ export const main = async () => {
       'Choose options'
     );
 
-    if (options === 'Exit') {
-      process.exit(0);
-    }
-
     if (options === 'Path') {
       downloadPath = null;
     }

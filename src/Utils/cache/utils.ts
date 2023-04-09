@@ -1,4 +1,3 @@
-import fs from 'fs-extra';
 import NodeCache from 'node-cache';
 
 const cache = new NodeCache({
@@ -19,4 +18,4 @@ export class Cache {
 
 const setCache = (key: string, value: any) => cache.set(key, value);
 const getCache = (key: string) => cache.get(key);
-const flushCache = (key: string) => cache.flushAll();
+const flushCache = () => cache.flushAll();

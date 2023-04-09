@@ -12,7 +12,12 @@
   "bin": {
     "tiktok-api-dl": "./dist/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "tiktok",
+    "tiktok-downloader",
+    "cli",
+    "downloader"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

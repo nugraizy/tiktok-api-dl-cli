@@ -1,5 +1,5 @@
 node_modules
-dist
+src
 .gitignore
 .prettierrc.json
 package-lock.json
